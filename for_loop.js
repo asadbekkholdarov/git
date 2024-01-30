@@ -4,5 +4,6 @@ for (let i = 0; i < 10; i++) {
   if (count < 0) {
     console.log("-");
   }
+  count = count + 1;
   console.log(count);
 }
