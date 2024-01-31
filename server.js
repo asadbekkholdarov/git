@@ -1,5 +1,9 @@
 const http = require("http");
 
-http.createServer((req, res) => {
-  res.sendDate("AAA");
+const server = http.createServer((req, res) => {
+  if (req.url == "/") {
+    res.sendDate("AAA");
+  }
 });
+
+server.listen(3000);
