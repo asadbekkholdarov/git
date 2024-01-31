@@ -5,5 +5,5 @@ const server = http.createServer((req, res) => {
     res.sendDate("AAA");
   }
 });
-const port = 3000
+const port = 3000;
 server.listen(port);
